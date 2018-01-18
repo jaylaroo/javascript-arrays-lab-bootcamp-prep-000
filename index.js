@@ -36,7 +36,7 @@ function prependKitten(name) {
   
 }
 
-function appendKitten(name) {
+function removeLastKitten() {
   var moreKittens = [...kittens];
   moreKittens.push(name);
   return moreKittens;
